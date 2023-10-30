@@ -170,3 +170,6 @@ if DEBUG:
     DEBUG_TOOLBAR_CONFIG = {
         "INTERCEPT_REDIRECTS": False,
     }
+RECAPTCHA_PRIVATE_KEY = 'your_production_private_key'
+RECAPTCHA_PUBLIC_KEY = 'your_production_public_key'
+SILENCED_SYSTEM_CHECKS = ['captcha.recaptcha_test_key_error']
